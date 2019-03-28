@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tema 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimun-scale=1, maximun-scale=1, user-scalable=no">
+    <meta name="author" content="Jesus Lopez">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css2.css">
+</head>
+<body>
+<script src="js/bootstrap.min.js"></script>
+    
+        <div class="margin">
+            <h1>TEMA 2</h1>
+
+            <h2>Por Jesús López</h2>
+            <div>
+                <p >Este resumen contiene <span>:hovers</span> así que pase el cursor por los puntos e iran apareciendo los apartados.</p>
+            </div>
+        </div>
+        <div>          
+            <nav class="Tema">
+                    <ul>
+                        <li><p class="d-block">Pregunta 1</p>
+                            <ul>
+                                <li><p>Instala y configura el servidor udhcpd para que de IPs en el rango de 10 a 100</p></li>
+                                <li><figure><img class="margin-der" src="img/Tema2-1.png" alt="Tema 2-1"></figure></li>
+                                <li><p>Para establecer el rango de IPs, nos iremos con el comando nano al fichero /etc/udhcpd.conf.</p></li>
+                                <li><figure><img class="margin-der" src="img/Tema2-2.png" alt="Tema 2-2" width="530px" height="340px"></figure></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </nav>
+
+            <nav class="Tema ">
+                <ul>
+                    <li><p>Pregunta 2</p>
+                    <ul>
+                        <li><p class="margin-izq2">Configura para que los servidores DNS sean los de Google.</p></li>
+                        <li><p class="margin-izq2">Con el comando nano accederemos al fichero alojado en /etc/resolv.conf ya la ip de la primera línea por la de "GOOGLE", es decir.</p></li>
+                        <li><figure><img class="margin-der" src="img/Tema2-3.png" alt="Tema2-3"></figure></li>
+
+                    </ul>
+                    </li>
+                </ul>
+                </nav>
+                <nav class="Tema ">
+                        <ul>
+                            <li><p>Capa de transporte</p>
+                            <ul>
+                                <li><p class="margin-izq2">La unidad de datos se llama segmentos.</p></li>
+                                <li><p class="margin-izq2">Aceptar los datos de capas superiores, y en caso de que sea necesario los dividirá y los enviara a la red..</p></li>
+                                <li><p class="margin-izq2">Ejemplos (http, FTP, SMTP, POP, SSH).</p></li>
+                            </ul>
+                            </li>
+                        </ul>
+                </nav> 
+                <nav class="Tema ">
+                        <ul>
+                            <li><p>TCP</p>
+                            <ul>
+                                <li><figure><img class="margin-izq3" src="img/TCP.png" alt="Modelo TCP"></figure></li>
+                            </ul>
+                            </li>
+                        </ul>
+                </nav>
+                <nav class="Tema ">
+                    <ul>
+                        <li><p>UDP</p>
+                        <ul>
+                            <li><figure><img class="margin-izq4" src="img/UDP.png" alt="Modelo UDP"></figure></li>
+                            <li>
+                                <p class="margin-izq4">Este no implementa medidas de seguridad a diferencia del modelo TCP</p>
+                            </li>
+                        </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="Tema ">
+                    <ul>
+                        <li><p>ICMP</p>
+                        <ul>
+                            <li>
+                                <p class="margin-izq5">Se encapsulan datagramas IP</p>
+                            </li>
+                            <li>
+                                <p class="margin-izq5">Informan sucesos de la red.</p>
+                            </li>
+                            <li>
+                                <p class="margin-izq5">Su uso difieres del proposito de los protocolos TCP y UDP hablados anteriormente.</p>
+                            </li>
+                            <li>
+                                <p class="margin-izq5">Algunas herramientas conocidas como el ping o el traceroute usan este protocolo.</p>
+                            </li>
+                        </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="Tema ">
+                    <ul>
+                        <li><p>OSI y TCP/IP</p>
+                        <ul>
+                            <li><figure><img class="margin-izq6" src="img/OSI y TCP IP.png" alt="Modelo OSI y TCP/IP"></figure></li>
+                        </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="Tema ">
+                    <ul>
+                        <li><p>IP</p>
+                        <ul>
+                            <li>
+                                <p class="margin-izq7">No es fiable ya que existe la posibilidad de que pierda paquetes.</p>
+                            </li>
+                            <li>
+                                <p class="margin-izq7">Es un protocolo no orientado a la conexión. Es decir, las tramas pueden tomar distintas rutas.</p>
+                            </li>
+                            <li>
+                                <p class="margin-izq7">Formato formado por cabecera más segmento de capas superiores.</p>
+                            </li>
+                            <li>
+                                <figure><img class="margin-izq7" src="img/IP.png" alt="Modelo IP"></figure>
+                            </li>
+                        </ul>
+                        </li>
+                    </ul>
+                </nav>
+        </div>      
+              
+</body>
+</html>
